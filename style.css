@@ -1,0 +1,124 @@
+/* Reset de margens e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    background-color: #000 !important;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('https://img1.picmix.com/output/stamp/normal/5/1/0/1/1171015_f458c.gif');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+/* Estilos do Carrossel */
+.carousel-tudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    max-width: 100%;
+}
+
+/* Estilos do Timer */
+#timer {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: 21px; /* Aumenta o tamanho da fonte */
+    font-weight: 500; /* Deixa o texto mais grosso */
+}
+
+.text-content {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* Estilos do Texto */
+.text {
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 5px;
+}
+
+.line {
+    height: 2px;
+    width: 60%;
+    background-color: #ffffff;
+    margin: 10px auto;
+}
+
+.p1 {
+    font-size: 16px;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.37);
+    padding: 3px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.486);
+    margin: 5px 0;
+    font-family: DejaVu Sans Mono, monospace;
+    text-align: center;
+    font-weight: 900;
+}
+
+.p2, .p3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-family: OCR A Std, monospace;
+}
+
+.tempo {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .6rem;
+    color: #fff;
+}
+
+.tempo h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Estilo do Carrossel */
+.carousel {
+    width: 90%;
+    max-width: 1000px;
+}
+
+.frases {
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-item {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+/* Responsividade */
+@media (max-width: 390px) {
+    #carouselExampleCaptions {
+        width: 800px;
+    }
+}
